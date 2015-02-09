@@ -1,0 +1,158 @@
+(dp1
+S'sardo'
+p2
+(dp3
+S'private_snippet'
+p4
+S'I hate my brother Romano.'
+p5
+sS'name'
+p6
+S'Miss Sardo'
+p7
+sS'color'
+p8
+S'red'
+p9
+sS'web_site'
+p10
+S'http://www.google.com/search?q="pecorino+sardo"'
+p11
+sS'is_admin'
+p12
+L0L
+sS'is_author'
+p13
+L1L
+sS'snippets'
+p14
+(lp15
+sS'pw'
+p16
+S'odras'
+p17
+ssS'administrator'
+p18
+(dp19
+g4
+S'My password is secret. Get it?'
+p20
+sg6
+S'Admin'
+p21
+sg10
+S'http://www.google.com/contact/security.html'
+p22
+sg12
+L1L
+sg13
+L0L
+sg16
+S'secret'
+p23
+ssS'test123'
+p24
+(dp25
+S'private_snippet'
+p26
+S'<script>alert(1)</script>'
+p27
+sS'name'
+p28
+S'test123'
+p29
+sS'web_site'
+p30
+S'www.google.com'
+p31
+sS'color'
+p32
+S"red' onmouseover='alert(1)"
+p33
+sS'pw'
+p34
+S'thisisatest'
+p35
+sS'is_author'
+p36
+S'True'
+p37
+sS'snippets'
+p38
+(lp39
+S'all <span style=display:none>"\r\n+ (alert(1),"")\r\n+ "</span>your base'
+p40
+aS'"'
+aS'""'
+p41
+aS'<a onmouseover="alert(1)" href="#">read this!</a>'
+p42
+aS'<p <script>alert(1)</script>hello'
+p43
+aS'&lt;script&gt;alert(1)&lt;/script&gt;'
+p44
+aS'<script>alert(1)</script>'
+p45
+aS'<script>alert("XSS")</script>'
+p46
+aS'this is a joke'
+p47
+asS'icon'
+p48
+S'http://127.0.0.1:8008/1529567160/test123/icon.jpg'
+p49
+ssS'cheddar'
+p50
+(dp51
+g4
+S'My SSN is <a href="http://www.google.com/search?q=078-05-1120">078-05-1120</a>.'
+p52
+sg6
+S'Cheddar Mac'
+p53
+sg8
+S'blue'
+p54
+sg10
+S'http://images.google.com/images?q=cheddar+cheese'
+p55
+sg12
+L0L
+sg13
+L1L
+sg14
+(lp56
+S'Gruyere is the cheesiest application on the web.'
+p57
+aS'I wonder if there are any security holes in this....'
+p58
+asg16
+S'orange'
+p59
+ssS'brie'
+p60
+(dp61
+g4
+S'I use the same password for all my accounts.'
+p62
+sg6
+S'Brie'
+p63
+sg8
+S'red; text-decoration:underline'
+p64
+sg10
+S'http://news.google.com/news/search?q=brie'
+p65
+sg12
+L0L
+sg13
+L1L
+sg14
+(lp66
+S'Brie is the queen of the cheeses<span style=color:red>!!!</span>'
+p67
+asg16
+S'briebrie'
+p68
+ss.
