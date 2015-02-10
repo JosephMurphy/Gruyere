@@ -146,7 +146,7 @@ def main():
     server_name = '127.0.0.1'                                   # DO NOT CHANGE
   server_port = 8008                                            # DO NOT CHANGE
   global server_unique_id                                       # DO NOT CHANGE
-  server_unique_id = str(abs(hash(seed_value)))                 # DO NOT CHANGE
+  server_unique_id = '1529567160' #str(abs(hash(seed_value)))                 # DO NOT CHANGE
 
   # END WARNING!
 
